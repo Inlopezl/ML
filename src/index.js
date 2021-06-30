@@ -3,7 +3,7 @@ const app = express()
 const path = require("path")
 
 //server
-app.listen( process.env.PORT || 3030, ()=> console.log("Server on http://localhost:3000"));
+app.listen(process.env.PORT ||   3000, ()=> console.log("Server on http://localhost:3000"));
 
 // Public Access
 app.use(express.static(path.resolve(__dirname,"../public")));

@@ -116,3 +116,16 @@ main section article:hover .descripcion{
     }
 
 }
+
+@media (min-width:986px) {
+main article{
+    max-width: 22%;
+}
+.precio{
+    width: 50%;
+}
+.descuentos{
+    width: 50%;
+}
+
+}
